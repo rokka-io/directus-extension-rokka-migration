@@ -1,0 +1,23 @@
+{
+  "name": "directus-extension-rokka-migration",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "directus-codestyle": "github:dimitrov-adrian/directus-codestyle",
+    "typescript": "^4.7.4",
+    "knex": "^2.2.0"
+  },
+  "prettier": "directus-codestyle/prettier",
+  "stylelint": {
+    "extends": "directus-codestyle/stylelint"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/directus-codestyle/.eslintrc.js",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
+  }
+}
