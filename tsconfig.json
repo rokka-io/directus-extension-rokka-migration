@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
     "target": "ES2019",
-    "lib": ["ES2019", "DOM"],
+    "lib": ["ES2019"],
     "moduleResolution": "node",
     "strict": false,
     "noFallthroughCasesInSwitch": true,
@@ -22,7 +23,8 @@
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "outDir": "dist"
   },
   "include": ["./src/**/*.ts"]
 }
